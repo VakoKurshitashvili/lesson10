@@ -1,0 +1,83 @@
+/* base classes */
+
+.flex{
+    display: flex;
+}
+
+/* header */
+
+.container{
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.header-wrapper{
+    justify-content: space-between;
+}
+
+
+.header{
+    padding: 25px 0;
+}
+
+.nav-li{
+    margin-right: 49px;
+}
+nav-li:last-child{
+    margin-right: 0;
+}
+
+.icon{
+    margin-left: 25px;
+    display: none;
+}
+
+/* header */
+
+
+/* section */
+
+.section{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+
+.block img{
+    width: 269px;
+}
+
+
+.block-wrapper{
+    justify-content: space-between;
+}
+
+.left-block{
+    max-width: 241px;
+    width: 100%;
+}
+
+.right-block{
+    max-width: 870px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.block{
+    max-width: 269px;
+    width: 38%;
+}
+
+
+/* form */
+
+.forms{
+    max-width: 600px;
+    width: 100%;
+    margin:0 auto;
+}

@@ -1,0 +1,24 @@
+@media (max-width:768px) {
+    /* .navigation{
+        display: none;
+    } */
+    .container{
+        width: 90%;
+    }
+    .nav-li:not(.active){
+        display: none;
+    }
+
+    
+    .icon{
+        display: block;
+    }
+}
+
+
+@media (max-width: 1048px) {
+    .right-block{
+        justify-content: space-around;
+    }
+    
+}
